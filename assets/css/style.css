@@ -1,0 +1,171 @@
+.container {
+  max-width: 1200px;
+}
+
+.fixarRodape {
+  padding-top: 90px;
+  position: bottom;
+  max-width: 1200px;
+  width: 100%;
+  text-align: center;
+}
+
+.rounded {
+  padding-top: 2%;
+}
+
+.py-5 {
+  position: bottom;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+ul {
+  list-style: none; /* Remove list bullets */
+  font-size: 20px;
+  padding: 0!important;
+  margin: 0;
+}
+
+ul a:hover {
+  text-decoration: none;
+  color: #daa520;
+}
+
+.container a:hover {
+  text-decoration: none;
+  color: #daa520;
+}
+
+li a {
+  color: black;
+}
+
+.list-group-item {
+border: 0;
+color: black;
+}
+
+.gabriola {
+  font-family: Gabriola!important;
+  font-size: 30pt!important;
+}
+
+/* Banner da página inicial */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #CCC;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+/* Troca a cor dos botões das redes sociais */
+
+.fa-facebook-f:hover{
+  color: #3b5998 !important;
+}
+
+.fa-whatsapp:hover{
+  color: #25d366 !important;
+}
+
+.fa-instagram:hover{
+  color: #993399 !important;
+}
+
+/* Utilitários extras */
+
+.flex-equal > * {
+  -ms-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
+  }
+}
+
+.overflow-hidden { overflow: hidden; }
+
+/* Menu */ 
+
+.bg-black {
+    background-color: #000
+}
+
+#logo {
+    width: 30px;
+    height: 40px;
+    border-radius: 4px
+}
+
+.navbar-brand {
+    padding: 14px 20px;
+    font-size: 16px
+}
+
+.navbar-nav {
+    width: 100%
+}
+
+.nav-item {
+    padding: 6px 14px;
+}
+
+.nav-link {
+    padding-bottom: 10px;
+    color: white!important
+}
+
+.nav-link:hover {
+    color: #daa520!important
+}
+
+.v-line {
+    background-color: gray;
+    width: 1px;
+    height: 20px
+}
+
+.navbar-collapse.collapse.in {
+    display: block!important
+}
+
+/* Menu Mobile */
+
+@media (max-width: 576px) {
+    .nav-item {
+        width: 100%;
+        text-align: left
+    }
+
+    .v-line {
+        display: none
+    }
+}
