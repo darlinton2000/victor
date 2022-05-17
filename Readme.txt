@@ -9,7 +9,7 @@ Composer (Gerenciador de Pacotes)
 
 Bibliotecas usadas:
 PHPMailer v6.5.3
-Bootstrap v5.1.3
+Bootstrap v5.2.0
 FontAwesome v.6.1.1
 
 Breve descrição das bibliotecas ultizadas:
